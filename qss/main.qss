@@ -1,0 +1,74 @@
+QWidget
+{
+	border:none;
+	color:white;
+	font-family:微软雅黑;
+	font-size:14px;
+	outline:0 px;
+	background:transparent;
+}
+
+/*
+顶部背景
+*/
+#m_pTopWgt
+{
+	border-image:url(images/bg.png) 50 4 4 4 stretch stretch;
+	border-width:50 4 4 4;
+	background:transparent;
+}
+
+/*
+主体背景
+*/
+#m_pMainWgt
+{
+	border-image:url(images/main.png) 4 4 4 4 stretch stretch;
+	border-width:4 4 4 4;
+	background:transparent;
+}
+
+#leftWgt
+{
+	border:none;
+}
+
+#rightWgt
+{
+	border:none;
+}
+
+#rightArea
+{
+	border-left:1px solid #23262c;
+}
+
+#m_pMinBtn
+{
+	border-image:url(images/min.png);
+}
+
+#m_pMinBtn:hover
+{
+	border-image:url(images/min-H.png);
+}
+
+#m_pMaxBtn
+{
+	border-image:url(images/max.png);
+}
+
+#m_pMaxBtn:hover
+{
+	border-image:url(images/max-H.png);
+}
+
+#m_pCloseBtn
+{
+	border-image:url(images/close.png);
+}
+
+#m_pCloseBtn:hover
+{
+	border-image:url(images/close-H.png);
+}
