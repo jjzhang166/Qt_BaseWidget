@@ -16,5 +16,5 @@ resize(m_pMainWgt->width(), m_pMainWgt->height() + TOP_HEIGHT);
 ```
 
 #界面截图
-![](https://github.com/ikongziming/Qt_BaseWidget/blob/master/images/demo.png?raw=true)
+![](https://github.com/ikongziming/Qt_BaseWidget/blob/master/images/demo.png?raw=true)<br/>
 应该能看出来，样式是参考网易云音乐的。
